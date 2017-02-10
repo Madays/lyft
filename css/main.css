@@ -1,3 +1,42 @@
-body{
-    background-image: url('http://mediad.publicbroadcasting.net/p/kut/files/styles/medium/public/201508/Uber-Lyft-Hybrid.jpg');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+body{
+    /*background-image: url('http://mediad.publicbroadcasting.net/p/kut/files/styles/medium/public/201508/Uber-Lyft-Hybrid.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align:center;
+    margin: auto;
+    */
+}
+.hero{
+    position: relative;
+    justify-content: center;
+}
+img{
+    z-index: -10;
+}
+h1{
+    position: absolute;
+    top: 0;
+    margin: auto;
+}
+a{
+    position: absolute;
+    bottom: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.btn-left{
+    left: 10px;
+}
+.btn-right{
+    right: 10px;
+}
+
+
