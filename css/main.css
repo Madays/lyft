@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-html *{
+html{
     background-image: url('../img/portada.jpg');
     background-position: center; 
     background-attachment: fixed;
