@@ -5,8 +5,8 @@
 }
 html{
     background-image: url('../img/portada.jpg');
-    background-position: center; 
+    /*background-position: center; 
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:cover;*/
 }
