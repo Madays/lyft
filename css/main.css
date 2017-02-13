@@ -6,9 +6,10 @@
 html{
     background-image: url('../img/portada.jpg');
     background-size:cover;
-    background-position: center;
-    /* 
+    
     background-attachment: fixed;
+    /* 
+    background-position: center;
     background-repeat: no-repeat;
     */
 }
