@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 html{
-    background-image: url('../img/portada.jpg') fixed;
+    background-image: url('../img/portada.jpg') no-repeat fixed;
     background-size:cover;
     background-position: top center;
-    background-repeat: no-repeat;
+
     /* 
     background-position: center;
-    
+    background-repeat: ;    
     background-attachment: fixed;
     */
 }
