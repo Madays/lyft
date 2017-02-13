@@ -3,77 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+html * {
     background-image: url('../img/portada.jpg');
+    background-position: center;    
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size:cover;
 }
-/*---------First page---------*/
-.box-container{
-    position: relative;
-}
-section.to-start{
-    position: absolute;
-    bottom: 50px;
-    right: 0;
-    left: 0;
-}
-section.to-start .box-botton{
-    
-}
-section.to-start a#logIn{
-    position: absolute;
-    right: 0; 
-    border: solid 1px #fff;    
-}
-section.to-start a#signUp{
-    position: absolute;
-    background: linear-gradient(to right, #7E00BF , #D800BF);
-}
-a#logIn, a#signUp{
-    text-decoration: none;
-    padding: 10px 30px;
-    color: #fff;
-    border-radius: 3px;
-}
-/*------END---First page---------*/
-/*------------Sign Up-----------*/
-
-input#iAgree{
-    color: #95CFE8;
-    padding: 0;
-    margin: 0;
-} 
-span#terms{
-    color: #95CFE8;
-}
-#btn-next{
-    background-color: #FC1EBE;
-    color: #fff;
-    font-size: 25px;
-    padding: 20px 0;
-    display: block;
-    margin-top: 30px; 
-    text-align: center;
-}
-/*---------END---Sign Up-----------*/
-/*---------END---Sign Up-----------*/
-#code-country{
-    position: absolute;
-    z-index: 10;
-    padding-top: 7px;
-    
-}
-/*------------select-country-----------*/
-section.select-country h4{
-    background-color: #EFEFF4;  
-    padding: 10px 20px;
-    
-}
-section.select-country li{
-    list-style: none;
-}
-/*---------END---select-country-----------*/
-
