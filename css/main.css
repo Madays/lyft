@@ -6,7 +6,8 @@
 html{
     background-image: url('../img/portada.jpg');
     background-size:cover;
-    /*background-position: center; 
+    background-position: center;
+    /* 
     background-attachment: fixed;
     background-repeat: no-repeat;
     */
