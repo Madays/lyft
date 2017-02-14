@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 html{
-    background-image: url('../img/portada.jpg') no-repeat fixed;
+    background-image: url('../img/portada.jpg');
     background-size:cover;
     background-position: top center;
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
 
     /* 
     background-position: center;
-    background-repeat: ;    
-    background-attachment: fixed;
+    
     */
 }
 body{

@@ -28,7 +28,12 @@ a#logIn, a#signUp{
 }
 /*------END---First page---------*/
 /*------------Sign Up-----------*/
+#icon-left{
 
+}
+section.sign-up h2{
+    
+}
 input#iAgree{
     color: #95CFE8;
     padding: 0;
