@@ -28,11 +28,11 @@ a#logIn, a#signUp{
 }
 /*------END---First page---------*/
 /*------------Sign Up-----------*/
-#icon-left{
 
-}
-section.sign-up h2{
-    
+section.sign-up #icon-sign-up {
+    position: absolute;
+
+    left: 40px;
 }
 input#iAgree{
     color: #95CFE8;
@@ -66,7 +66,7 @@ section.select-country h4{
     
 }
 section.select-country li{
-    list-style: none;
+    list-style: none;    
 }
 /*---------END---select-country-----------*/
 
