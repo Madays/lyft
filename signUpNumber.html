@@ -15,28 +15,23 @@
 <body>
     <section class="sign-up">
         <div class="container-fluid text-center">
-            <h2><span class="icon-chevron-thin-left" class='icon-left' style="float:left;"></span>Sign up</h2>
-                <p>Join now for free ride credit</p>
-                <hr>
+            <h2><a href="index.html"><span class="icon-chevron-thin-left" class='icon-left' style="float:left;"></span></a>Sign up</h2>
+            <p>Join now for free ride credit</p>
+            <hr>
+            <div class="input-group" style="padding-bottom: 20px;">
+                <div class="input-group-btn">
+                    <!-- Buttons -->
+                    <a href="" onclick="selectFlagCountry(event)"><button class="btn" id="eflag-country" ><img src="flags/Peru.png" alt="" id="img-flag">&nbsp<span class="caret" style="color:#333;"></span></button></a>
+                    <button class="btn" id="code-country">+51</button>
+                </div>
+                <input type="text" class="form-control" aria-label="..." id='phone-number' placeholder="11234567" onkeyup="saveNumPhone()">
+            </div>
+            <p>We'll send a text to verify your phone</p>
         </div> 
-        <div class="row container">
-          <div class="col-lg-6">
-            <div class="input-group">
-              <div class="input-group-btn">
-               <a href="selecCountry.html" onclick="updateCountry">
-                   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="flags/Peru.png" alt="" id="country"><span class="caret"></span></button></a>
-                <ul class="dropdown-menu">
-                  
-                </ul>
-              </div><!-- /btn-group -->
-              <span id="code-country">&nbsp +51</span>
-              <input type="text" class="form-control" aria-label="..." placeholder="      11234567">
-            </div><!-- /input-group -->
-            <p style="padding: 20px 0;" class="text-center">We'll send a text to verify your phone</p>
-          </div><!-- /.col-lg-6 -->                  
-</div><!-- /.row -->
+        
     <a href="signUP.html" id='btn-next' style="text-center">Next</a>          
-    </section> 
+    </section>
+    <script src="js/signUpNum.js"></script>        
 </body>
 </html>
 

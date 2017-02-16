@@ -28,12 +28,23 @@ a#logIn, a#signUp{
 }
 /*------END---First page---------*/
 /*------------Sign Up-----------*/
-
-section.sign-up #icon-sign-up {
-    position: absolute;
-
-    left: 40px;
+#input-box{
+    position: relative;
 }
+#input-box input{
+    padding-left: 30px;
+}
+.icon-mail {
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+.icon-profile-male {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
 input#iAgree{
     color: #95CFE8;
     padding: 0;
@@ -53,17 +64,24 @@ span#terms{
 }
 /*---------END---Sign Up-----------*/
 /*---------END---Sign Up-----------*/
+#eflag-country{
+    background: none;
+    border: 1px solid #CCCCCC;
+    border-right: none;
+    border-radius: 5px 0px 0px 5px;
+}
 #code-country{
-    position: absolute;
-    z-index: 10;
-    padding-top: 7px;
-    
+    background: none;
+    border: 1px solid #CCCCCC;
+    border-right: none;
+}
+#phone-number{
+    border-left: none;     
 }
 /*------------select-country-----------*/
 section.select-country h4{
     background-color: #EFEFF4;  
-    padding: 10px 20px;
-    
+    padding: 10px 20px;   
 }
 section.select-country li{
     list-style: none;    

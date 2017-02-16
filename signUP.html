@@ -17,23 +17,29 @@
     <section class="sign-up">
         <div class="container-fluid text-center">
             <div class="tittle-signUp">
-                <h2><span class="icon-chevron-thin-left" class='icon-left' style="float:left;"></span>Sign up</h2> 
+                <h2><a href="signUpNumber.html"><span class="icon-chevron-thin-left" class='icon-left' style="float:left;"></span></a>Sign up</h2> 
             </div>            
             <p>Join now for free ride credit</p>
             <hr>
             <div class="container"> 
                 <form action="">
-                    <i class="icon-profile-male" id="icon-sign-up"></i>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="     First name                                  Last name">
-                    <i class="icon-mail" id="icon-sign-up"></i>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">    
+                    <div id="input-box">
+                        <i class="icon-profile-male" id="icon-sign-up"></i>
+                        <input type="text" class="form-control" id="nameLastname" placeholder="First name                                  Last name" onkeyup='validateName()'>
+                    </div>
+                    <div id="input-box">
+                        <i class="icon-mail" id="icon-sign-up"></i>
+                        <br>
+                        <input type="email" class="form-control" id="input-email" placeholder="Email" onkeyup="validateEmail()"> </div>   
                 </form>
+                <br>
                 <p > <input type="checkbox" id="iAgree"><span> I agree to Lyft's </span><span id="terms">  Terms of Service</span></p>
             </div> 
-            <a href="" id='btn-next'>Next</a>
+            <a href="" id='btn-next' style="text-decoration:none;">Next</a>
 
         </div>
-    </section> 
+    </section>    
+    <script src="js/signUp.js"></script>
 </body>
 </html>
 
