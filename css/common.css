@@ -97,5 +97,8 @@ section.select-country h4{
 section.select-country li{
     list-style: none;    
 }
+#code-country{
+    visibility: hidden;
+}
 /*---------END---select-country-----------*/
 
