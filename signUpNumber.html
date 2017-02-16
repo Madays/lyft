@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="css/queries.css">
 	<link rel="stylesheet" href="css/common.css">
 </head>
-<body>
+<body onload="updateFlagCodeContry()">
     <section class="sign-up">
         <div class="container-fluid text-center">
             <h2><a href="index.html"><span class="icon-chevron-thin-left" class='icon-left' style="float:left;"></span></a>Sign up</h2>
@@ -31,8 +31,8 @@
                     <div class="input-group">
                       <div class="input-group-btn">
                        
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="updateFlagCodeContry()">
-                        <a href="selecCountry.html">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a href="selecCountry.html" style="text-decoration:none;">
                         <img src="flags/Peru.png" alt="" id="img-flag"> <span class="caret"></span>
                         </a>
                         </button>
@@ -43,13 +43,14 @@
                     </div><!-- /input-group -->
                   </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
+                <br>
             <p>We'll send a text to verify your phone</p>
         </div> 
         
     <a href="signUP.html" id='btn-next' style="text-center">Next</a>          
-    </section>
-    <script src="js/infoCountry.js"></script>
-    <script src="js/signUpNum.js"></script>   
+    </section> 
+    <script src="js/signUpNum.js"></script>     
+    <script src="js/getFlagCode.js"></script>     
 </body>
 </html>
 

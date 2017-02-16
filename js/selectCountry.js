@@ -10,18 +10,7 @@ for(var i=0;i<infoCountry.length;i++){
           '</a></li>';
     codeCountry=infoCountry[i].phone_code;
     var listCountry = document.getElementById('list-country');
-    listCountry.innerHTML+=htmlLiCountry;  
-    
-    
+    listCountry.innerHTML+=htmlLiCountry;      
 };
-/*---------Seleccionar pais---------*/
-for(var k=0;k<13;k++){
-    var country = document.getElementsByClassName('country');
-    country[k].addEventListener('click',saveFlagCodeCountry);
-}
 
-function saveFlagCodeCountry(evt){
-    console.log(evt.target.parentNode.firstChild.src);
-    localStorage.setItem('flag',evt.target.parentNode.firstChild.src);    
-}
 
