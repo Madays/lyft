@@ -9,7 +9,6 @@ for(var i=0;i<infoCountry.length;i++){
                 '<span style="float:right;margin-top:-5px;padding-right: 4px;">'+alphabet[2*i]+'<br>'+alphabet[2*i+1]+'</span>'+
                 '<hr>'+
           '</a></li>';
-    codeCountry=infoCountry[i].phone_code;
     var listCountry = document.getElementById('list-country');
     listCountry.innerHTML+=htmlLiCountry;      
 };
