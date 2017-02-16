@@ -30,10 +30,16 @@
                     <div class="col-lg-6">
                     <div class="input-group">
                       <div class="input-group-btn">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="flags/Peru.png" alt=""> <span class="caret"></span></button>
+                       
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="updateFlagCodeContry()">
+                        <a href="selecCountry.html">
+                        <img src="flags/Peru.png" alt="" id="img-flag"> <span class="caret"></span>
+                        </a>
+                        </button>
+                       
                      </div><!-- /btn-group -->
                       <span id="code">+51</span>
-                      <input type="text" class="form-control" aria-label="..." placeholder="11234567" id="input-number">
+                      <input type="text" class="form-control" aria-label="..." placeholder="11234567" id="phone-number" onkeyup="saveNumPhone()">
                     </div><!-- /input-group -->
                   </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
@@ -42,7 +48,8 @@
         
     <a href="signUP.html" id='btn-next' style="text-center">Next</a>          
     </section>
-    <script src="js/signUpNum.js"></script>        
+    <script src="js/infoCountry.js"></script>
+    <script src="js/signUpNum.js"></script>   
 </body>
 </html>
 

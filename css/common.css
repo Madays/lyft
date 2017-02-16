@@ -78,13 +78,14 @@ span#terms{
 #phone-number{
     border-left: none;     
 }*/
+
 #code{
     position: absolute;
     left: 60px;
     top: 7px;
     z-index: 10;
 }
-#input-number{
+#phone-number{
     padding-left: 35px;
 }
 /*---------END---Sign Up Number-----------*/

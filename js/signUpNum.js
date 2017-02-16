@@ -4,6 +4,6 @@ function saveNumPhone(){
 }
 
 function updateFlagCodeContry(){
-    var flagCountry = document.getElementById("img-flag");
-    flagCountry.src = localStorage.getItem('codeCountry');
+    var flag = document.getElementById('img-flag');
+    flag.src= localStorage.getItem('flag');
 }

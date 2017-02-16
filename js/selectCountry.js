@@ -2,29 +2,26 @@
 var codeCountry;
 var alphabet =['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','#'];
 for(var i=0;i<infoCountry.length;i++){
-    var htmlLiCountry= '<li id="country"><a href="" style="text-decoration: none;">'+        
+    var htmlLiCountry= '<li id="country" class="country"><a href="" style="text-decoration: none;" id="link">'+        
             '<img src='+ infoCountry[i].srcImg +' alt="" style="padding-right:10px;" id="flag-country">'+
-            '<span id="code-country">'+infoCountry[i].name+'</span>'+
+            '<span>'+infoCountry[i].name+'</span>'+
                 '<span style="float:right;margin-top:-5px;padding-right: 4px;">'+alphabet[2*i]+'<br>'+alphabet[2*i+1]+'</span>'+
                 '<hr>'+
           '</a></li>';
     codeCountry=infoCountry[i].phone_code;
     var listCountry = document.getElementById('list-country');
-    listCountry.innerHTML+=htmlLiCountry;    
+    listCountry.innerHTML+=htmlLiCountry;  
+    
+    
 };
 /*---------Seleccionar pais---------*/
-var country = document.getElementById('country');
-country.addEventListener('click',flagCodeCountryEvt);
-function flagCodeCountryEvt(evt){
-    console.log(evt.target.parentNode);
-    //flagCodeCountry();
-}
-function flagCodeCountry(){    
-    //var flag = evt.target.parentNode;
-    //var flagCountry = document.getElementById("flag-country");
-    //localStorage.setItem('flagCountry',flagCountry.src);    localStorage.setItem('codeCountry',codeCountry);
-    console.log(evt);
-    
+for(var k=0;k<13;k++){
+    var country = document.getElementsByClassName('country');
+    country[k].addEventListener('click',saveFlagCodeCountry);
 }
 
+function saveFlagCodeCountry(evt){
+    console.log(evt.target.parentNode.firstChild.src);
+    localStorage.setItem('flag',evt.target.parentNode.firstChild.src);    
+}
 
