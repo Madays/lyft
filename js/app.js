@@ -14,4 +14,5 @@ function initMap() {
           icon:"img/taxi2.png"
         });
     }
+    
 };
