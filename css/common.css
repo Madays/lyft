@@ -63,8 +63,8 @@ span#terms{
     text-align: center;
 }
 /*---------END---Sign Up-----------*/
-/*---------END---Sign Up-----------*/
-#eflag-country{
+/*------------Sign Up Number-----------*/
+/**#eflag-country{
     background: none;
     border: 1px solid #CCCCCC;
     border-right: none;
@@ -77,7 +77,17 @@ span#terms{
 }
 #phone-number{
     border-left: none;     
+}*/
+#code{
+    position: absolute;
+    left: 60px;
+    top: 7px;
+    z-index: 10;
 }
+#input-number{
+    padding-left: 35px;
+}
+/*---------END---Sign Up Number-----------*/
 /*------------select-country-----------*/
 section.select-country h4{
     background-color: #EFEFF4;  
